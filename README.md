@@ -1,3 +1,23 @@
+#Ranking the pro's
+
+Deze repo is gemaakt om het project RTP te delen met de collega's die hieraan werken.
+
+Als je het project wilt draaien zal je npm moeten installeren.
+
+Al het onderstaande is om de een standaard angular 2 quickstart te volgen.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Angular 2 QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 
