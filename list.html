@@ -1,0 +1,36 @@
+<h1>{{title}}</h1>	
+<table class="data">
+    <thead>
+        <tr>
+            <th>
+                <h4>Name  <button class="glyphicon glyphicon-sort"></button></h4></th>
+            <th>
+                <h4>Blogbadge</h4></th>
+            <th>
+                <h4>Certificeringsbadge</h4></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let rows of myRowData">
+            <td>{{rows.name}}</td>
+            <td>
+                <div class=" achievements ">
+                    <img src="img/blog_badge_cavero.jpeg " alt=" ">
+                    <div class="rating ">
+                        <span></span>
+                        <div class="stars two-star "></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="achievements ">
+                    <img src="img/certificate_badge_cavero.png " alt=" ">
+                    <div class="rating ">
+                        <span></span>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+

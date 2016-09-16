@@ -54,13 +54,60 @@
         <my-app>Loading...</my-app>
         <div class="row">
             <div class="col-lg-12">
-                <p class="lead">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                <p class="lead">SComplete with pre-defined file paths that you won't have to change!!</p>
+                <!--         <ul class="list-unstyled">
+                  <li>Bootstrap v3.3.7</li>
+                  <li>jQuery v1.11.1</li>
+                </ul> -->
             </div>
             <div class="col-lg-12">
                 <h2>Professionals</h2>
                 
-                <my-app></my-app>    
+                
 
+                <table class="data">
+                    <thead>
+                        <tr>
+                            <th>
+                                <h4>Name  <span class="glyphicon glyphicon-sort" aria-hidden="true"></span></h4></th>
+                            <th>
+                                <h4>Blogbadge</h4></th>
+                            <th>
+                                <h4>Certificeringsbadge</h4></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{rows.name}}</td>
+                            <td>
+                                <div class="achievements">
+                                    <img src="img/blog_badge_cavero.jpeg" alt="">
+                                    <div class="rating">
+                                		<span>{{rows.badge}}</span>
+                                        <!-- <div class="stars one-star"></div> -->
+                                        <div class="stars two-star"></div>
+                                        <!--                     <div class="stars three-star"></div>
+                        <div class="stars four-star"></div>
+                        <div class="stars five-star"></div> -->
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="achievements">
+                                    <img src="img/certificate_badge_cavero.png" alt="">
+                                    <div class="rating">
+                                    <span>{{rows.blog}}</span>
+                                        <!--                     <div class="stars one-star"></div>
+                        <div class="stars two-star"></div>
+                        <div class="stars three-star"></div> -->
+                                        <div class="stars three-star"></div>
+                                        <!--                     <div class="stars five-star"></div> -->
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div class="col-lg-12">
                 <h3>Admin Message</h3>
